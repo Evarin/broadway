@@ -1,0 +1,39 @@
+﻿.bdw_playbtn {
+	display: block;
+	width: 60px;
+	height: 60px;
+	border-radius: 100px;
+	border: 6px solid #fff;
+	position: relative;
+	margin: 10px;
+	box-shadow: 0 0 6px rgba(0,0,0,.22);
+	background: #557e84;
+	margin-left: auto;
+}
+
+.bdw_playbtn .bdw_playtriangle {
+	border: 16px solid transparent;
+	border-left-color: #fff;
+	position: absolute;
+	left: 19px;
+	top: 7px;
+}
+
+.bdw_sameurl {
+	opacity: 0.5;
+}
+
+.bdw_sameurl.bdw_difft0:after {
+	position: absolute;
+	content: "Δt";
+	top: -2px;
+	right: -2px;
+	color: #557e84;
+	background: #fff;
+	border-radius: 20px;
+	font-size: 10px;
+	font-weight: bold;
+	height: 15px;
+	width: 15px;
+	text-align: center;
+}

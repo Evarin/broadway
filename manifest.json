@@ -1,0 +1,21 @@
+﻿{
+
+  "description": "Lecteur pratique des liens youtube sur les topics du forum dessiné",
+  "manifest_version": 2,
+  "name": "Le forum musical",
+  "version": "1.1.2",
+  "author": "Evarin",
+  "homepage_url": "https://evarin.fr/citron/broadway/",
+  "icons": {
+    "48": "icons/broadway-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.forum-dessine.fr/forum/*"],
+      "js": ["broadway.js"],
+	  "css": ["broadway.css"]
+    }
+  ]
+
+}
